@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        body{
+            background-color: black;
+        }
+         .container{
+            display: flex;
+            width: 340px;
+            height: 520px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            flex-direction: column;
+            padding: 0 20px;
+            margin: 0 auto;
+            margin-top: 40px;
+            font-family:  'Manrope', sans-serif;
+            justify-content: space-between;
+        }
+        h1{
+            text-align: center;
+        }
+        label,.label,button {
+            margin-top: 10px;
+        }
+        input{
+            padding: 5px;
+        }
+        button{background-color: #000000;
+            color: aliceblue;
+            padding: 5px;
+            border-radius: 2px;
+            border: 0;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        #Batch{
+            padding: 5px 255px 5px 0;
+            color: rgb(101, 104, 107);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SignUp</h1>
+
+        <label for="Name">Name:</label>
+        <input type="text" placeholder="Name" id="Name">
+        <form action="" class="label">
+            <label class="label" for="Batch">Batch:</label>
+            <br>
+            <select id="Batch" name="Batch">
+              <option >Sigma 2.0</option>
+              <option >Sigma 1.0</option>
+              <option >Java 2.0</option>
+              <option >Java 1.0</option>
+            </select>
+          </form>
+          <label for="Age">Age:</label>
+          <input type="text"  id="Age">  
+
+          <label for="Email">Email:</label>
+          <input type="Email"  id="Email">  
+
+          <label for="Password">Password:</label>
+          <input type="Password"  id="Password">  
+
+          <button type="submit">Signup</button>
+    </div>
+
+</body>
+</html>
